@@ -3,10 +3,6 @@
 
 }
 
-html {
- 
-}
-
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -63,3 +59,28 @@ textarea {
   width: 100%;
     min-height: 520px;
 }
+
+#show-text {
+  font-family: "Montserrat", sans-serif;
+
+    position: fixed;
+    bottom: 0;
+    height: 3rem;
+    width: 10rem;
+    font-size: 1rem;
+    background-color: #385e6b;
+    border: none;
+    border-radius: 1rem 1rem 0 0;
+    color: #A4D4AE;
+}
+
+#show-text:focus {
+    outline: 0;
+    box-shadow: 0 0 0 4px #32AFA9;
+}
+
+#show-text:hover {
+  background-color: #E7F0C3;
+  color: #385e6b;
+}
+
