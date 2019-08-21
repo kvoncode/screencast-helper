@@ -23,10 +23,12 @@ textarea {
   width: 720px;
   height: 360px;
   font-family: "Montserrat", sans-serif;
-  background-color: #383838;
+  background-color: #A4D4AE;
+  border-color: #E7F0C3;
+  border-width: 1rem;
   border-radius: 10px;
   resize: none;
-  color: white;
+  color: rgb(62, 66, 71);
   font-size: 1.5rem;
   padding: 2rem;
 }
@@ -52,11 +54,11 @@ textarea {
   width: 100%;
     min-height: 720px;
 
-  background-color: #1b1b1b;
+  background-color: #32AFA9;
 }
 
 #p-container {
-  background-color: #292a2c;
+  background-color: #467483;
 
   width: 100%;
     min-height: 520px;
