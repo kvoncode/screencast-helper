@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-
 }
 
 body {
@@ -19,8 +18,8 @@ textarea {
   width: 720px;
   height: 360px;
   font-family: "Montserrat", sans-serif;
-  background-color: #A4D4AE;
-  border-color: #E7F0C3;
+  background-color: #a4d4ae;
+  border-color: #e7f0c3;
   border-width: 1rem;
   border-radius: 10px;
   resize: none;
@@ -48,39 +47,38 @@ textarea {
 
 #text-area {
   width: 100%;
-    min-height: 720px;
+  min-height: 720px;
 
-  background-color: #32AFA9;
+  background-color: #32afa9;
 }
 
 #p-container {
   background-color: #467483;
 
   width: 100%;
-    min-height: 520px;
+  min-height: 100vh;
 }
 
 #show-text {
   font-family: "Montserrat", sans-serif;
 
-    position: fixed;
-    bottom: 0;
-    height: 3rem;
-    width: 10rem;
-    font-size: 1rem;
-    background-color: #385e6b;
-    border: none;
-    border-radius: 1rem 1rem 0 0;
-    color: #A4D4AE;
+  position: fixed;
+  bottom: 0;
+  height: 3rem;
+  width: 10rem;
+  font-size: 1rem;
+  background-color: #385e6b;
+  border: none;
+  border-radius: 1rem 1rem 0 0;
+  color: #a4d4ae;
 }
 
 #show-text:focus {
-    outline: 0;
-    box-shadow: 0 0 0 4px #32AFA9;
+  outline: 0;
+  box-shadow: 0 0 0 4px #32afa9;
 }
 
 #show-text:hover {
-  background-color: #E7F0C3;
+  background-color: #e7f0c3;
   color: #385e6b;
 }
-
