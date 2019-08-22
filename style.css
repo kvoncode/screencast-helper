@@ -82,3 +82,23 @@ textarea {
   background-color: #e7f0c3;
   color: #385e6b;
 }
+
+/* Scrollbar */
+
+/* width */
+textarea::-webkit-scrollbar {
+  width: 10px;
+}
+
+textarea::-webkit-scrollbar-track {
+  background: #32AFA9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #467483;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5d9aaf;
+
+}
