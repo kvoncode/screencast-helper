@@ -21,11 +21,16 @@ textarea {
   background-color: #a4d4ae;
   border-color: #e7f0c3;
   border-width: 1rem;
-  border-radius: 10px;
+  border-radius: 10px 0 0 10px;
   resize: none;
   color: rgb(62, 66, 71);
   font-size: 1.5rem;
   padding: 2rem;
+}
+
+textarea:focus {
+  background: #95d6a2;
+  outline: none;
 }
 
 .flex-column {
@@ -104,8 +109,7 @@ button {
 
 #save-btn:focus {
   outline: 0;
-  box-shadow: 0 0 0 4px #A4D4AD;
-
+  box-shadow: 0 0 0 4px #a4d4ad;
 }
 
 #save-btn:hover {
