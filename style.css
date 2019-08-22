@@ -59,28 +59,58 @@ textarea {
   min-height: 100vh;
 }
 
-#show-text {
-  font-family: "Montserrat", sans-serif;
+#textarea-wrapper {
+  position: relative;
+}
 
+/* Buttons */
+button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+#next-btn {
   position: fixed;
   bottom: 0;
   height: 3rem;
   width: 10rem;
-  font-size: 1rem;
   background-color: #385e6b;
   border: none;
   border-radius: 1rem 1rem 0 0;
   color: #a4d4ae;
 }
 
-#show-text:focus {
+#next-btn:focus {
   outline: 0;
   box-shadow: 0 0 0 4px #32afa9;
 }
 
-#show-text:hover {
+#next-btn:hover {
   background-color: #e7f0c3;
   color: #385e6b;
+}
+
+#save-btn {
+  position: absolute;
+  top: 0;
+  right: -10rem;
+  height: 3rem;
+  width: 10rem;
+
+  background: #e7f0c3;
+  border: none;
+  border-radius: 0 1rem 1rem 0;
+}
+
+#save-btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 4px #A4D4AD;
+
+}
+
+#save-btn:hover {
+  background: #467483;
+  color: #e7f0c3;
 }
 
 /* Scrollbar */
@@ -91,7 +121,7 @@ textarea::-webkit-scrollbar {
 }
 
 textarea::-webkit-scrollbar-track {
-  background: #32AFA9;
+  background: #32afa9;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -100,5 +130,4 @@ textarea::-webkit-scrollbar-track {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #5d9aaf;
-
 }

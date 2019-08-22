@@ -5,6 +5,5 @@ $("#show-text").click(function (e) {
 
     const arr = fullText.split("\n");
     
-    console.log(arr);
     
 });
