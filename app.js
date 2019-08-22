@@ -1,9 +1,25 @@
-$("#show-text").click(function (e) { 
-    e.preventDefault();
+let textArray = [];
 
-    const fullText = $("#full-text").val();
+let counter = -1;
 
-    const arr = fullText.split("\n");
-    
-    
+$("#save-btn").click(function(e) {
+  e.preventDefault();
+
+  $("#p-container").empty();
+
+  const fullText = $("#full-text").val();
+
+  textArray = fullText.split("\n");
+
+  counter = 0;
+});
+
+$("#next-btn").click(function(e) {
+  e.preventDefault();
+
+  if (counter >= 0 && counter < textArray.length) {
+    $("#p-container").append("<p>" + textArray[counter] + "</p>");
+
+    counter++;
+  }
 });
