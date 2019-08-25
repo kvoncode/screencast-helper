@@ -21,5 +21,8 @@ $("#next-btn").click(function(e) {
     $("#p-container").append("<p>" + textArray[counter] + "</p>");
 
     counter++;
+
+    // scrolling
+    window.scrollTo(0, document.body.scrollHeight)
   }
 });
