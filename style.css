@@ -100,9 +100,9 @@ button {
 #save-btn {
   position: absolute;
   top: 0;
-  right: -10rem;
+  right: -6rem;
   height: 3rem;
-  width: 10rem;
+  width: 6rem;
   font-weight: bold;
   background: #e7f0c3;
   border: none;
