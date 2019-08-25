@@ -84,7 +84,6 @@ button {
   border-radius: 1rem 1rem 0 0;
   color: #a4d4ae;
   font-weight: bold;
-
 }
 
 #next-btn:focus {
@@ -137,4 +136,19 @@ textarea::-webkit-scrollbar-track {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #5d9aaf;
+}
+
+@media only screen and (max-width: 1280px) {
+  #textarea-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #save-btn {
+    position: static;
+    border-radius: 1rem;
+    margin: 1rem;
+  }
 }
