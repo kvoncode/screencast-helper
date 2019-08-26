@@ -18,11 +18,11 @@ $("#next-btn").click(function(e) {
   e.preventDefault();
 
   if (counter >= 0 && counter < textArray.length) {
-    $("#p-container").append("<p>" + textArray[counter] + "</p>");
+    $("#p-container").append($("<p></p>").text(textArray[counter]));
 
     counter++;
 
     // scrolling
-    window.scrollTo(0, document.body.scrollHeight)
+    window.scrollTo(0, document.body.scrollHeight);
   }
 });
