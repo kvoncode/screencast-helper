@@ -1,10 +1,10 @@
-#Screencast helper
+# Screencast helper
 
-It's useful when giving comments on current screen when recording screencast
+I made the app to comment my screencast videos
 
-## Usecase
+## Usage
 
 1. Paste wanted text to <textarea> element
 2. Click Save button
-3. Click Next button to show first line of pasted text
+3. Click Next button to show one line
 
